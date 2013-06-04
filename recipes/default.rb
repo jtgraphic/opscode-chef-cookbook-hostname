@@ -13,4 +13,4 @@ hostsfile_entry '127.0.0.1' do
     action    :append
 end
 
-Execute "hostname -F /etc/hostname"
+execute "hostname -F /etc/hostname"
